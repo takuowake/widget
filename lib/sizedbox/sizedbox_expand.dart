@@ -7,11 +7,11 @@ class SizedBoxExpand extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('SizedBox.expand Example')),
+        appBar: AppBar(title: const Text('SizedBox.expand Example')),
         //親のWidgetが許す限り最大の大きさの箱を用意するSizedBox
-        body: SizedBox.expand(
-          child: Container(
-            color: Colors.red,
+        body: const SizedBox.expand(
+          child: DecoratedBox(
+            decoration: BoxDecoration(color: Colors.red),
           ),
         ),
       ),

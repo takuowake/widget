@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:widget/sizedbox/sizedbox_expand.dart';
+import 'package:widget/sizedbox/sizedbox_fromsize.dart';
+import 'package:widget/sizedbox/sizedbox_shrink.dart';
+import 'package:widget/sizedbox/sizedbox_square.dart';
 
 void main() {
   // runApp(const MyApp());
-  runApp(const SizedBoxExpand());
+  // runApp(const SizedBoxExpand());
+  // runApp(const SizedBoxShrink());
+  // runApp(const SizedBoxFromSize());
+  runApp(const SizedBoxSquare());
 }
 
 class MyApp extends StatelessWidget {
